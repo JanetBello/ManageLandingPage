@@ -1,0 +1,13 @@
+.sliding-div {
+  overflow: hidden;
+}
+
+.section {
+  min-h: screen;
+  flex: 0 0 100%;
+  transition: transform 0.3s ease;
+}
+
+.section:not(.active) {
+  transform: translateX(100%);
+}
